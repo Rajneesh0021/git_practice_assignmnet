@@ -14,8 +14,15 @@
    
   
    //prime number problem
-  
-   let num=13;
-   if(num%)
-  
-   
+    let flag = 'prime'
+   let num =13;
+   for(i=2;i<num;i++){
+   if(num%i==0){
+   flag='not prime';
+   break;
+   }
+}
+  if(flag){
+    console.log(num, flag);
+  }
+   else {console.log(num, flag)}
