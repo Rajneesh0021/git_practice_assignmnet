@@ -1,21 +1,14 @@
 //palindrome problem
-    let N=5
-    let str='manan'
+   let u='naman';
    let bag='';
-   let bag2='';
-   for(i=0;i<N;i++){
-       bag=bag+str[i]
-      
-   for(j=N;j>0;j--)
-       bag2=bag2+str[j];
-   }if(bag2===bag){
-       console.log('Yes');
-   }else { console.log('no');}
-   
-  
-   //prime number problem
+   for(i=u.length-1;i>=0;i--){
+      bag=bag+u[i]}
+      if(u==bag){console.log('palindrome')
+   }else{console.log(bag)}
+
+    //prime number problem
     let flag = 'prime'
-   let num =13;
+   let num =12;
    for(i=2;i<num;i++){
    if(num%i==0){
    flag='not prime';
