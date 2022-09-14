@@ -1,6 +1,6 @@
 //palindrome problem
     let N=5
-    let str='naman'
+    let str='manan'
    let bag='';
    let bag2='';
    for(i=0;i<N;i++){
